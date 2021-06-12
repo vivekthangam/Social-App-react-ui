@@ -1,12 +1,12 @@
 {
-    "name": "ChatApp",
+    "name": "social-app",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
     "scripts": {
         "start": "node server/server.js",
         "dev": "nodemon server/server.js",
-        "build": "npm install && cd client/social-app && npm install && npm run build"
+        "build": "npm install -f && cd client/social-app && npm install -f && npm run build"
     },
     "keywords": [],
     "author": "",
